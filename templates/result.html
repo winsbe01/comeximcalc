@@ -1,0 +1,20 @@
+<!doctype html>
+<body>
+<h2>Inputs</h2>
+<p>
+{% if band_size %}
+    <strong>Band size:</strong> {{ band_size }}<br/>
+{% endif %}
+{% if cup_size %}
+    <p><strong>Cup size:</strong> {{ cup_size }}<br/>
+{% endif %}
+{% if store_name %}
+    <p><strong>Store name:</strong> {{ store_name }}<br/>
+{% endif %}
+</p>
+<h2>Results</h2>
+<h3>{{ res }}</h3>
+
+<a href='/'>Do another!</a>
+
+</body>
